@@ -106,7 +106,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="..\Clases\Clases.csproj">
+=======
+    <ProjectReference Include="..\..\..\..\..\..\Downloads\primera-winapp-2019-1-master\primera-winapp-2019-1-master\SolucionPrimerAplicacion2019\Clases\Clases.csproj">
+>>>>>>> 007a780755ca3497bb9b7b8a3280988f9b5e4983
       <Project>{0faad9ba-aaa5-4d30-bf12-98a1f8db6bbe}</Project>
       <Name>Clases</Name>
     </ProjectReference>
