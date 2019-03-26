@@ -1,0 +1,6 @@
+C:\Users\Max\Downloads\primera-winapp-2019-1-master\primera-winapp-2019-1-master\SolucionPrimerAplicacion2019\Clases\bin\Debug\Clases.dll
+C:\Users\Max\Downloads\primera-winapp-2019-1-master\primera-winapp-2019-1-master\SolucionPrimerAplicacion2019\Clases\bin\Debug\Clases.pdb
+C:\Users\Max\Downloads\primera-winapp-2019-1-master\primera-winapp-2019-1-master\SolucionPrimerAplicacion2019\Clases\obj\Debug\Clases.csprojAssemblyReference.cache
+C:\Users\Max\Downloads\primera-winapp-2019-1-master\primera-winapp-2019-1-master\SolucionPrimerAplicacion2019\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\Max\Downloads\primera-winapp-2019-1-master\primera-winapp-2019-1-master\SolucionPrimerAplicacion2019\Clases\obj\Debug\Clases.dll
+C:\Users\Max\Downloads\primera-winapp-2019-1-master\primera-winapp-2019-1-master\SolucionPrimerAplicacion2019\Clases\obj\Debug\Clases.pdb
