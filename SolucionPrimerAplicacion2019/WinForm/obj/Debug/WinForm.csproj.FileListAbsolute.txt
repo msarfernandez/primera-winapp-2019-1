@@ -11,3 +11,5 @@ C:\Users\Max\Documents\Repos\primera-winapp-2019-1\SolucionPrimerAplicacion2019\
 C:\Users\Max\Documents\Repos\primera-winapp-2019-1\SolucionPrimerAplicacion2019\WinForm\obj\Debug\WinForm.csproj.CopyComplete
 C:\Users\Max\Documents\Repos\primera-winapp-2019-1\SolucionPrimerAplicacion2019\WinForm\obj\Debug\WinForm.exe
 C:\Users\Max\Documents\Repos\primera-winapp-2019-1\SolucionPrimerAplicacion2019\WinForm\obj\Debug\WinForm.pdb
+C:\Users\Max\Documents\Repos\primera-winapp-2019-1\SolucionPrimerAplicacion2019\WinForm\obj\Debug\WinForm.frmPrincipal.resources
+C:\Users\Max\Documents\Repos\primera-winapp-2019-1\SolucionPrimerAplicacion2019\WinForm\obj\Debug\WinForm.frmEjemploGrilla.resources

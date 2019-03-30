@@ -33,7 +33,7 @@
             // 
             // btnEjecutar
             // 
-            this.btnEjecutar.Location = new System.Drawing.Point(79, 88);
+            this.btnEjecutar.Location = new System.Drawing.Point(105, 72);
             this.btnEjecutar.Name = "btnEjecutar";
             this.btnEjecutar.Size = new System.Drawing.Size(183, 23);
             this.btnEjecutar.TabIndex = 0;
@@ -45,10 +45,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 239);
+            this.ClientSize = new System.Drawing.Size(391, 189);
             this.Controls.Add(this.btnEjecutar);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Polimorfismo";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

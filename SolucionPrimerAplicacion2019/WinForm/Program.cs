@@ -16,7 +16,7 @@ namespace WinForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1("EL TITULO ES ESTE"));
+            Application.Run(new frmPrincipal());
         }
     }
 }

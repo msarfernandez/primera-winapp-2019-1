@@ -73,5 +73,17 @@ namespace WinForm
         {
             unMetodo();
         }
+
+
+        private void buscarVentanas()
+        {
+            foreach (var item in Application.OpenForms)
+            {
+                //if(item.GetType() == frmEjemploGrilla)
+                //{
+
+                //}
+            }
+        }
     }
 }
