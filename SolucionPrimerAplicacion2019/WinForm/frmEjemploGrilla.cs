@@ -80,5 +80,28 @@ namespace WinForm
             listadoAnimales.Add(gato);
             refrescarGrilla();
         }
+
+        private void btnMostrarSeleccionado_Click(object sender, EventArgs e)
+        {
+            //Creo una variable Object para guardar el objeto seleccionado.
+            //Recordemos que la grilla recibe cualquier cosa y la interpreta internamente, por eso es dinámica.
+            //Pero luego, cuando te devuelve, te da lo mínimo que sabe conocer, que es un object a secas
+            //y es lo que la hace genérica.
+            Object objetoSeleccionado;
+            //ahora guardo adentro de esa variable el objeto seleccionado en la grilla:
+            //la grilla se comopone de rows (filas) y cada fila de cells (celdas). En este caso vamos a
+            //apuntar directamente a la fila. CurrentRow, es decir, Fila Actual (la seleccionada).
+            //Y de esa fila, quiero "el item bindeado", o sea, enlazado. Lo que me va a devolver ese "Object"
+            //del que hablábamos antes.
+            objetoSeleccionado = dgvAnimales.CurrentRow.DataBoundItem;
+
+            //Ahora, ese objeto OBJECT, yo sé que es un animal, y lo quiero tratar como tal.
+            //Entonces lo voy a guardar en una variable de tipo animal, pero lo voy a tener que castear.
+            Animal animalSeleccionado = (Animal)objetoSeleccionado;
+
+            //Ahora tengo disponible al animal como tal para poder usarlo:
+            MessageBox.Show(animalSeleccionado.Nombre + ", " + animalSeleccionado.Color);
+            
+        }
     }
 }

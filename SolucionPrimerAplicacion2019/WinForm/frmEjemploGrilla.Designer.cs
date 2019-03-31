@@ -38,6 +38,7 @@
             this.cboColor = new System.Windows.Forms.ComboBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnGato = new System.Windows.Forms.Button();
+            this.btnMostrarSeleccionado = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAnimales)).BeginInit();
             this.SuspendLayout();
             // 
@@ -127,11 +128,27 @@
             this.btnGato.UseVisualStyleBackColor = true;
             this.btnGato.Click += new System.EventHandler(this.btnGato_Click);
             // 
+            // btnMostrarSeleccionado
+            // 
+            this.btnMostrarSeleccionado.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.btnMostrarSeleccionado.FlatAppearance.BorderSize = 3;
+            this.btnMostrarSeleccionado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnMostrarSeleccionado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnMostrarSeleccionado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMostrarSeleccionado.Location = new System.Drawing.Point(298, 353);
+            this.btnMostrarSeleccionado.Name = "btnMostrarSeleccionado";
+            this.btnMostrarSeleccionado.Size = new System.Drawing.Size(172, 31);
+            this.btnMostrarSeleccionado.TabIndex = 9;
+            this.btnMostrarSeleccionado.Text = "Mostrar Seleccionado";
+            this.btnMostrarSeleccionado.UseVisualStyleBackColor = true;
+            this.btnMostrarSeleccionado.Click += new System.EventHandler(this.btnMostrarSeleccionado_Click);
+            // 
             // frmEjemploGrilla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(492, 359);
+            this.ClientSize = new System.Drawing.Size(492, 396);
+            this.Controls.Add(this.btnMostrarSeleccionado);
             this.Controls.Add(this.btnGato);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.cboColor);
@@ -162,5 +179,6 @@
         private System.Windows.Forms.ComboBox cboColor;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnGato;
+        private System.Windows.Forms.Button btnMostrarSeleccionado;
     }
 }
