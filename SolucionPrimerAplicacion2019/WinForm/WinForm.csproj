@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Iconos\302aa49ce3d59eb9cce751f5f3326a81.jpg" />
+    <Content Include="Iconos\iconfinder_Apply_132742.png" />
     <Content Include="Iconos\images.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

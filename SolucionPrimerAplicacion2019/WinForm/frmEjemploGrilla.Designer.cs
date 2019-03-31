@@ -44,6 +44,7 @@
             // dgvAnimales
             // 
             this.dgvAnimales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAnimales.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvAnimales.Location = new System.Drawing.Point(12, 92);
             this.dgvAnimales.Name = "dgvAnimales";
             this.dgvAnimales.Size = new System.Drawing.Size(458, 255);
@@ -101,20 +102,26 @@
             // btnAgregar
             // 
             this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
-            this.btnAgregar.Location = new System.Drawing.Point(258, 62);
+            this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAgregar.Location = new System.Drawing.Point(258, 45);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.Size = new System.Drawing.Size(94, 40);
             this.btnAgregar.TabIndex = 7;
             this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnGato
             // 
-            this.btnGato.Image = ((System.Drawing.Image)(resources.GetObject("btnGato.Image")));
-            this.btnGato.Location = new System.Drawing.Point(339, 62);
+            this.btnGato.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.btnGato.FlatAppearance.BorderSize = 3;
+            this.btnGato.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnGato.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnGato.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGato.Location = new System.Drawing.Point(358, 45);
             this.btnGato.Name = "btnGato";
-            this.btnGato.Size = new System.Drawing.Size(93, 23);
+            this.btnGato.Size = new System.Drawing.Size(112, 42);
             this.btnGato.TabIndex = 8;
             this.btnGato.Text = "Gato";
             this.btnGato.UseVisualStyleBackColor = true;

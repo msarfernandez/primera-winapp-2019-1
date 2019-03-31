@@ -15,6 +15,7 @@ namespace WinForm
     {
         //esto es un atributo privado propio de esta ventana.
         private List<Animal> listadoAnimales = new List<Animal>();
+        private BindingList<Animal> listaBindeable;
 
         //Este es el constructor de esta ventana. Vino por default.
         public frmEjemploGrilla()
@@ -30,7 +31,15 @@ namespace WinForm
             cboColor.Items.Add("Salmón");
             cboColor.Items.Add("Negro Montés");
 
-            dgvAnimales.DataSource = listadoAnimales;
+            //MSF-20190331: desactivo lo que vimos el viernes.
+            //dgvAnimales.DataSource = listadoAnimales;
+
+            //agrego la nueva manera de darle datos a la grilla
+            //es un tipo de colección, vean que se llama "BindingList". La variable la creé
+            //como atributo privado del Form para que esté disponible en todos los eventos. Pero le agregué
+            //la instancia recién aquí.
+            listaBindeable = new BindingList<Animal>(listadoAnimales);
+            dgvAnimales.DataSource = listaBindeable;
 
             //agregar al combo en una sola linea declarando un array de string antes.
             //sigue siendo completamente manual.
@@ -53,8 +62,14 @@ namespace WinForm
 
         private void refrescarGrilla()
         {
-            dgvAnimales.DataSource = null;
-            dgvAnimales.DataSource = listadoAnimales;
+            //dgvAnimales.DataSource = null;
+            //dgvAnimales.DataSource = listadoAnimales;
+            //En el refressh sacamos lo que estaba antes y hacemos esto nuevo:
+            //En los botones, la parte de agregar a la lista quedó igual.
+            listaBindeable.ResetBindings();
+
+            //la única diferencia que tenemos es que ahora tenemos 1 colección de tipo Lista y una de tipo
+            //lista "bindeable" 
         }
 
         private void btnGato_Click(object sender, EventArgs e)
